@@ -18,12 +18,12 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+API_ID = "26075120"
+API_HASH = "1fda88a5d1de46058a4791c78bce198e"
+BOT_TOKEN = "6468925244:AAHFq2wDZtw3Jc9YoL3D3ESiAMvB0lQbA6o"
+SESSION = "BAA62LZMclzNoSFGROSO_FGKFEIcEH4cBqWV0wFpwxR2xX0lRtYCXwTTueKvFgbLUqAlSDBNnbuUnnH53QS9AD_QEQZ4iUID9tc8bL4xwA89nzuFfFdCwXY8d-xL0NYh-puvjaX_hvG55IzXaDO56P1aglxkN_ZRiNK6hFvP8yNRQAKTuxdgC8NCqhOD3jO54_lUZVtknY8plntxuf3P9E5LgvPXCJLk-SShqDS1iNsX5F91XlqPDy9SooxDiXr1Gk7iBhAWMkBwu6egW3fz5nzkn6aonG3KoMoShvLiRBaalE2KSH7iDSWjS_0niAZomJRbUWj_8UjwtZPWgh12GlGoAAAAAYSLfM0A"
+FORCESUB = "dev_gagan"
+AUTH = "6876018655"
 SUDO_USERS = []
 if len(AUTH) != 0:
     SUDO_USERS = {int(AUTH.strip()) for AUTH in AUTH.split()}
